@@ -1,0 +1,15 @@
+height_m = 1.70
+weight_kg = 72
+
+BMI = weight_kg / (height_m **2)
+print('Your BMI is ='),(print(round(BMI)))
+
+if BMI <= 18.599999:
+    print('You are underweight')
+elif 18.59999 <= BMI <= 24.9999:
+    print('You are fit!')
+elif 25 <= BMI <= 29.9999:
+    print('You are fat!')
+elif BMI >= 30:
+    print ("You are severely overweight son!")
+
